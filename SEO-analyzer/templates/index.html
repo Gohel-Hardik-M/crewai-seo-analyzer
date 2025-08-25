@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SEO Analyzer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">🚀 AI-Powered SEO Analyzer</h1>
+    <p class="subtitle">Enter any webpage URL to generate a full SEO report using CrewAI agents.</p>
+
+    <form action="{{ url_for('index') }}" method="POST" class="form">
+      <input type="url" name="url" placeholder="https://example.com" required class="input-field">
+      <button type="submit" class="submit-button">Analyze Now</button>
+    </form>
+  </div>
+</body>
+</html>
