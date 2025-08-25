@@ -65,7 +65,7 @@ https://brightdata.com/blog/ai/geo-and-seo-ai-agent
 ### 4. Run The Project
 
 ## 📁 Project Structure
-
+'''
 SEO-analyzer/
 ├── app.py                       # Main Flask app that includes CrewAI SEO logic
 ├── requirements.txt            # All Python dependencies
@@ -80,3 +80,5 @@ SEO-analyzer/
 │
 └── output_examples/
     └── sample_output.md       # Example output from the SEO agent (optional)
+
+'''
