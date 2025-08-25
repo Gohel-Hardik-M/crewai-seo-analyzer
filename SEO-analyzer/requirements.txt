@@ -1,1 +1,4 @@
-abbc
+flask
+crewai
+litellm
+python-dotenv
