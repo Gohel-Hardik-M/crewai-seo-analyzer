@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Environment Setup
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = "YOUR_OPENROUTER_API_KEY"
 os.environ["LITELLM_PROVIDER"] = "openrouter"  
 MODEL_NAME = "openrouter/mistralai/mistral-7b-instruct"
 
@@ -89,3 +89,4 @@ def generate_seo_report(target_url):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
