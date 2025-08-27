@@ -1,7 +1,7 @@
 # 🧠 CrewAI SEO Analysis Agent  
-Internship Submission for CrowdWisdomTrading
 
-This project is a Python-based SEO analysis tool powered by CrewAI and LiteLLM. It was developed for the internship assessment from CrowdWisdomTrading. The solution uses multiple AI agents to extract, analyze, and report SEO insights from any webpage URL. It includes both a command-line interface (CLI) and a web-based user interface built with Flask.
+
+This project is a Python-based SEO analysis tool powered by CrewAI and LiteLLM.  The solution uses multiple AI agents to extract, analyze, and report SEO insights from any webpage URL. It includes both a command-line interface (CLI) and a web-based user interface built with Flask.
 
 ---
 
